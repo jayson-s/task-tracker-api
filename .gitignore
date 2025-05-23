@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env/
+.venv/
+venv/
+env/
+*.sqlite3
+
+# Docker
+*.log
+*.pid
+docker-compose.override.yml
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+crash.log
+override.tf
+override.tf.json
+*.auto.tfvars
+
+# SSH keys
+*.pem
+
+# Node (if frontend gets added later)
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
